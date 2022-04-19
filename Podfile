@@ -16,6 +16,7 @@ target 'BGNmobiCase' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Core'
   pod 'Firebase/RemoteConfig'
+  pod 'Firebase/Crashlytics'
 
 
 end

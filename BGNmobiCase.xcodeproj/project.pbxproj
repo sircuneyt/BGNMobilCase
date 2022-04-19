@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CD1E85243DBBAC37822E482 /* Pods_BGNmobiCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAA5CCC06F327CC4A743444 /* Pods_BGNmobiCase.framework */; };
+		D92FE10D280F82610033899B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D92FE10C280F82610033899B /* GoogleService-Info.plist */; };
 		D96365D6280C0FB50034804F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96365D5280C0FB50034804F /* AppDelegate.swift */; };
 		D96365D8280C0FB50034804F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96365D7280C0FB50034804F /* SceneDelegate.swift */; };
 		D96365DA280C0FB50034804F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96365D9280C0FB50034804F /* ViewController.swift */; };
@@ -31,13 +32,13 @@
 		D9A933E6280D94EF0083FE9C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A933E5280D94EF0083FE9C /* CollectionViewCell.swift */; };
 		D9A933E8280D94FB0083FE9C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A933E7280D94FB0083FE9C /* TableViewCell.xib */; };
 		D9A933EA280D95060083FE9C /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A933E9280D95060083FE9C /* CollectionViewCell.xib */; };
-		D9A933F0280E4D860083FE9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9A933EF280E4D860083FE9C /* GoogleService-Info.plist */; };
 		D9DC783D280F6B5000CECF62 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DC783C280F6B5000CECF62 /* SplashVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3AAA5CCC06F327CC4A743444 /* Pods_BGNmobiCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGNmobiCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFE8EB7C9B7E9C2A8CDA6C2 /* Pods-BGNmobiCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGNmobiCase.release.xcconfig"; path = "Target Support Files/Pods-BGNmobiCase/Pods-BGNmobiCase.release.xcconfig"; sourceTree = "<group>"; };
+		D92FE10C280F82610033899B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D96365D2280C0FB50034804F /* BGNmobiCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGNmobiCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96365D5280C0FB50034804F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D96365D7280C0FB50034804F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		D9A933E5280D94EF0083FE9C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		D9A933E7280D94FB0083FE9C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		D9A933E9280D95060083FE9C /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		D9A933EF280E4D860083FE9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D9DC783C280F6B5000CECF62 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		EDDD3A5B9EADAF735D472699 /* Pods-BGNmobiCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGNmobiCase.debug.xcconfig"; path = "Target Support Files/Pods-BGNmobiCase/Pods-BGNmobiCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +118,7 @@
 		D96365D4280C0FB50034804F /* BGNmobiCase */ = {
 			isa = PBXGroup;
 			children = (
+				D92FE10C280F82610033899B /* GoogleService-Info.plist */,
 				D96365E9280C0FFF0034804F /* Application */,
 				D96365FB280C2A290034804F /* Extension */,
 				D96365D5280C0FB50034804F /* AppDelegate.swift */,
@@ -126,7 +127,6 @@
 				D96365DE280C0FBA0034804F /* Assets.xcassets */,
 				D96365E0280C0FBA0034804F /* LaunchScreen.storyboard */,
 				D96365E3280C0FBA0034804F /* Info.plist */,
-				D9A933EF280E4D860083FE9C /* GoogleService-Info.plist */,
 			);
 			path = BGNmobiCase;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A933EA280D95060083FE9C /* CollectionViewCell.xib in Resources */,
-				D9A933F0280E4D860083FE9C /* GoogleService-Info.plist in Resources */,
+				D92FE10D280F82610033899B /* GoogleService-Info.plist in Resources */,
 				D96365E2280C0FBA0034804F /* LaunchScreen.storyboard in Resources */,
 				D9636600280C2AE70034804F /* PokemonCell.xib in Resources */,
 				D9636607280C318A0034804F /* PokemonDetailsVC.xib in Resources */,
@@ -380,7 +380,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp \"${PROJECT_DIR}/GoogleService-Info.plist\" -p iOS \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n\n";
 		};
 		D9928D01280F594E007797C4 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;

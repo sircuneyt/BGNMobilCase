@@ -9,6 +9,9 @@ PODS:
     - FirebaseAnalytics (~> 8.15.0)
   - Firebase/CoreOnly (8.15.0):
     - FirebaseCore (= 8.15.0)
+  - Firebase/Crashlytics (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 8.15.0)
   - Firebase/RemoteConfig (8.15.0):
     - Firebase/CoreOnly
     - FirebaseRemoteConfig (~> 8.15.0)
@@ -41,6 +44,13 @@ PODS:
     - GoogleUtilities/Environment (~> 7.7)
     - GoogleUtilities/Logger (~> 7.7)
     - nanopb (~> 2.30908.0)
+  - FirebaseCrashlytics (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
   - FirebaseInstallations (8.15.0):
     - FirebaseCore (~> 8.0)
     - GoogleUtilities/Environment (~> 7.7)
@@ -117,6 +127,7 @@ DEPENDENCIES:
   - AlamofireURLCache5
   - Firebase/Analytics
   - Firebase/Core
+  - Firebase/Crashlytics
   - Firebase/RemoteConfig
   - RxCocoa (= 6.0.0-rc.2)
   - RxSwift (= 6.0.0-rc.2)
@@ -132,6 +143,7 @@ SPEC REPOS:
     - FirebaseAnalytics
     - FirebaseCore
     - FirebaseCoreDiagnostics
+    - FirebaseCrashlytics
     - FirebaseInstallations
     - FirebaseRemoteConfig
     - GoogleAppMeasurement
@@ -153,6 +165,7 @@ SPEC CHECKSUMS:
   FirebaseAnalytics: 7761cbadb00a717d8d0939363eb46041526474fa
   FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
   FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseCrashlytics: feb07e4e9187be3c23c6a846cce4824e5ce2dd0b
   FirebaseInstallations: 40bd9054049b2eae9a2c38ef1c3dd213df3605cd
   FirebaseRemoteConfig: 2d6e2cfdb49af79535c8af8a80a4a5009038ec2b
   GoogleAppMeasurement: 4c19f031220c72464d460c9daa1fb5d1acce958e
@@ -166,6 +179,6 @@ SPEC CHECKSUMS:
   SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
   SwiftLint: d41cc46a2ae58ac6d9f26954bc89f1d72e71fdef
 
-PODFILE CHECKSUM: 1ba808b8479ccfa91e8db8c775ae51b31ce25101
+PODFILE CHECKSUM: ba1a3fb81848f81dbc4ff6cb27d0aee19b17d242
 
 COCOAPODS: 1.11.3
