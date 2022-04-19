@@ -11,7 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        GetPokemons(offset: 0, limit: 20).execute { [weak self] data in
+        }
     }
 
 

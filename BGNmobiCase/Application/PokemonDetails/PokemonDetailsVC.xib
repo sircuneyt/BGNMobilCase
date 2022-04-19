@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PokemonDetailsVC" customModule="BGNmobiCase" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionViewContent" destination="rOs-bJ-MQE" id="Y6R-cz-pFM"/>
+                <outlet property="tableViewContent" destination="J8h-4t-wPL" id="ria-UA-YlJ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ewa-c9-GX2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="OHW-7a-3AG">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="128" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rOs-bJ-MQE" customClass="ContentSizedCollectionView" customModule="BGNmobiCase" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="bBx-CY-EpD"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="u5i-Gg-ypo">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="52r-uZ-doD"/>
+                                <outlet property="delegate" destination="-1" id="jQq-0N-JLO"/>
+                            </connections>
+                        </collectionView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="J8h-4t-wPL" customClass="ContentSizedTableView" customModule="BGNmobiCase" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="230" width="414" height="622"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="mvz-uv-3xx"/>
+                                <outlet property="delegate" destination="-1" id="Nuh-9Q-UUd"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OHW-7a-3AG" secondAttribute="bottom" id="A62-ZP-xB5"/>
+                <constraint firstItem="OHW-7a-3AG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="e2K-FS-qrn"/>
+                <constraint firstItem="OHW-7a-3AG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ehE-Iz-oqc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OHW-7a-3AG" secondAttribute="trailing" id="oFT-ES-nlK"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="45.535714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

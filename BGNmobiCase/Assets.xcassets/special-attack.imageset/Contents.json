@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "special-attack.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
