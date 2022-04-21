@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CD1E85243DBBAC37822E482 /* Pods_BGNmobiCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAA5CCC06F327CC4A743444 /* Pods_BGNmobiCase.framework */; };
+		D94875C0281121EC0051C824 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94875BF281121EC0051C824 /* AppStorage.swift */; };
 		D96365D6280C0FB50034804F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96365D5280C0FB50034804F /* AppDelegate.swift */; };
 		D96365D8280C0FB50034804F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96365D7280C0FB50034804F /* SceneDelegate.swift */; };
 		D96365DA280C0FB50034804F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96365D9280C0FB50034804F /* ViewController.swift */; };
@@ -26,6 +27,8 @@
 		D9636605280C316D0034804F /* PokemonDetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9636604280C316C0034804F /* PokemonDetailsVM.swift */; };
 		D9636607280C318A0034804F /* PokemonDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9636606280C318A0034804F /* PokemonDetailsVC.xib */; };
 		D9636609280C31F10034804F /* GetPokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9636608280C31F10034804F /* GetPokemonDetails.swift */; };
+		D98AFEEC2810C82200FB8212 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98AFEEE2810C82200FB8212 /* Localizable.strings */; };
+		D98AFEF22810D3D200FB8212 /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = D98AFEF12810D3D200FB8212 /* Localize_Swift */; };
 		D9A933DF280D94AC0083FE9C /* ContentSizedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A933DE280D94AC0083FE9C /* ContentSizedCollectionView.swift */; };
 		D9A933E4280D94E60083FE9C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A933E3280D94E60083FE9C /* TableViewCell.swift */; };
 		D9A933E6280D94EF0083FE9C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A933E5280D94EF0083FE9C /* CollectionViewCell.swift */; };
@@ -38,6 +41,7 @@
 /* Begin PBXFileReference section */
 		3AAA5CCC06F327CC4A743444 /* Pods_BGNmobiCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGNmobiCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFE8EB7C9B7E9C2A8CDA6C2 /* Pods-BGNmobiCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGNmobiCase.release.xcconfig"; path = "Target Support Files/Pods-BGNmobiCase/Pods-BGNmobiCase.release.xcconfig"; sourceTree = "<group>"; };
+		D94875BF281121EC0051C824 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
 		D96365D2280C0FB50034804F /* BGNmobiCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGNmobiCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96365D5280C0FB50034804F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D96365D7280C0FB50034804F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,10 @@
 		D9636604280C316C0034804F /* PokemonDetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailsVM.swift; sourceTree = "<group>"; };
 		D9636606280C318A0034804F /* PokemonDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonDetailsVC.xib; sourceTree = "<group>"; };
 		D9636608280C31F10034804F /* GetPokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPokemonDetails.swift; sourceTree = "<group>"; };
+		D98AFEE72810C73600FB8212 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		D98AFEE82810C73600FB8212 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D98AFEED2810C82200FB8212 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D98AFEEF2810C82600FB8212 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D9A933DE280D94AC0083FE9C /* ContentSizedCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSizedCollectionView.swift; sourceTree = "<group>"; };
 		D9A933E3280D94E60083FE9C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D9A933E5280D94EF0083FE9C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -74,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CD1E85243DBBAC37822E482 /* Pods_BGNmobiCase.framework in Frameworks */,
+				D98AFEF22810D3D200FB8212 /* Localize_Swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +106,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D94875BE281121D00051C824 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D94875BF281121EC0051C824 /* AppStorage.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		D96365C9280C0FB50034804F = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +135,8 @@
 		D96365D4280C0FB50034804F /* BGNmobiCase */ = {
 			isa = PBXGroup;
 			children = (
-				D9D0DF55280F848E0012DFB7 /* GoogleService-Info.plist */,
 				D96365E9280C0FFF0034804F /* Application */,
+				D98AFEE92810C7B600FB8212 /* Localization */,
 				D96365FB280C2A290034804F /* Extension */,
 				D96365D5280C0FB50034804F /* AppDelegate.swift */,
 				D96365D7280C0FB50034804F /* SceneDelegate.swift */,
@@ -127,6 +144,7 @@
 				D96365DE280C0FBA0034804F /* Assets.xcassets */,
 				D96365E0280C0FBA0034804F /* LaunchScreen.storyboard */,
 				D96365E3280C0FBA0034804F /* Info.plist */,
+				D9D0DF55280F848E0012DFB7 /* GoogleService-Info.plist */,
 			);
 			path = BGNmobiCase;
 			sourceTree = "<group>";
@@ -134,6 +152,7 @@
 		D96365E9280C0FFF0034804F /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				D94875BE281121D00051C824 /* Utils */,
 				D9928D23280F5CE7007797C4 /* Splash */,
 				D9636601280C314A0034804F /* PokemonDetails */,
 				D96365F2280C28AF0034804F /* HomePage */,
@@ -210,6 +229,14 @@
 			path = PokemonDetails;
 			sourceTree = "<group>";
 		};
+		D98AFEE92810C7B600FB8212 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D98AFEEE2810C82200FB8212 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		D9928D23280F5CE7007797C4 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +292,7 @@
 			);
 			name = BGNmobiCase;
 			packageProductDependencies = (
+				D98AFEF12810D3D200FB8212 /* Localize_Swift */,
 			);
 			productName = BGNmobiCase;
 			productReference = D96365D2280C0FB50034804F /* BGNmobiCase.app */;
@@ -292,9 +320,11 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = D96365C9280C0FB50034804F;
 			packageReferences = (
+				D98AFEF02810D3D200FB8212 /* XCRemoteSwiftPackageReference "Localize-Swift" */,
 			);
 			productRefGroup = D96365D3280C0FB50034804F /* Products */;
 			projectDirPath = "";
@@ -314,6 +344,7 @@
 				D9D0DF56280F848E0012DFB7 /* GoogleService-Info.plist in Resources */,
 				D96365E2280C0FBA0034804F /* LaunchScreen.storyboard in Resources */,
 				D9636600280C2AE70034804F /* PokemonCell.xib in Resources */,
+				D98AFEEC2810C82200FB8212 /* Localizable.strings in Resources */,
 				D9636607280C318A0034804F /* PokemonDetailsVC.xib in Resources */,
 				D96365DF280C0FBA0034804F /* Assets.xcassets in Resources */,
 				D96365DD280C0FB50034804F /* Main.storyboard in Resources */,
@@ -423,6 +454,7 @@
 				D9DC783D280F6B5000CECF62 /* SplashVC.swift in Sources */,
 				D9A933E4280D94E60083FE9C /* TableViewCell.swift in Sources */,
 				D9636603280C315F0034804F /* PokemonDetailsVC.swift in Sources */,
+				D94875C0281121EC0051C824 /* AppStorage.swift in Sources */,
 				D96365D8280C0FB50034804F /* SceneDelegate.swift in Sources */,
 				D9636609280C31F10034804F /* GetPokemonDetails.swift in Sources */,
 			);
@@ -435,6 +467,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D96365DC280C0FB50034804F /* Base */,
+				D98AFEE72810C73600FB8212 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -443,8 +476,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				D96365E1280C0FBA0034804F /* Base */,
+				D98AFEE82810C73600FB8212 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D98AFEEE2810C82200FB8212 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98AFEED2810C82200FB8212 /* en */,
+				D98AFEEF2810C82600FB8212 /* tr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -454,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -514,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -647,6 +692,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D98AFEF02810D3D200FB8212 /* XCRemoteSwiftPackageReference "Localize-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Localize-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D98AFEF12810D3D200FB8212 /* Localize_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D98AFEF02810D3D200FB8212 /* XCRemoteSwiftPackageReference "Localize-Swift" */;
+			productName = Localize_Swift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D96365CA280C0FB50034804F /* Project object */;
 }

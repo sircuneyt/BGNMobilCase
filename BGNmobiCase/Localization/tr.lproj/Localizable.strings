@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  BGNmobiCase
+
+  Created by Cüneyt ALSU on 20.04.2022.
+  
+*/
+
+"hp" = "Can";
+"attack" = "Saldırı";
+"defense" = "Savunma";
+"special-attack" = "Özel Saldırı";
+"special-defense" = "Özel Savunma";
+"speed" = "Hız";

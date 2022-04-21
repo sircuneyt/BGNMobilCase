@@ -19,18 +19,32 @@ class GetPokemons {
     }
     
     func execute(completion: @escaping (PokemonsModel?) -> ()) {
-        let buildUrl =
-        "\(NetworkConstant.BASE_URL)?offset=\(offset)&limit=\(limit)"
-        let request = AF.request(buildUrl, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil)
-        
-        request.responseDecodable(of: PokemonsModel.self, completionHandler:  { (response) in
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
-            })
-            print(String(decoding: response.data ?? Data(), as: UTF8.self))
-            guard let response = response.value else {
+        let buildUrl = "\(NetworkConstant.BASE_URL)?offset=\(offset)&limit=\(limit)"
+        if AppStorage.checkKey(key: buildUrl) == true,  let cachedResponse = AppStorage.getAnyData(key: buildUrl) ,let data = cachedResponse as? Data {
+            
+            do {
+                let object = try JSONDecoder().decode(PokemonsModel.self, from: data)
+                completion(object)
+            }
+            catch {
                 return
             }
-            completion(response)
-        }) .cache(maxAge: 100)
+        } else {
+            let request = AF.request(buildUrl, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil)
+            
+            request.responseDecodable(of: PokemonsModel.self, completionHandler:  { (response) in
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3, execute: {
+                })
+                print(String(decoding: response.data ?? Data(), as: UTF8.self))
+                if response.data != nil {
+                    AppStorage.writeAnyData(key: buildUrl, value: response.data)
+                    
+                }
+                guard let response = response.value else {
+                    return
+                }
+                completion(response)
+            }) .cache(maxAge: 100)
+        }
     }
 }

@@ -25,17 +25,17 @@
                                     <constraint firstAttribute="height" constant="20" id="hcz-bx-nk6"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="999" verticalHuggingPriority="251" horizontalCompressionResistancePriority="999" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARx-81-hFe">
-                                <rect key="frame" x="40" y="26" width="150" height="19.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="999" verticalHuggingPriority="251" horizontalCompressionResistancePriority="999" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRC-ux-hiZ">
+                                <rect key="frame" x="40" y="27" width="125" height="17"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="UkQ-pK-b1C"/>
+                                    <constraint firstAttribute="width" constant="125" id="fls-l8-BAW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="z3X-GA-89P">
-                                <rect key="frame" x="210" y="33.5" width="106.5" height="4"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="z3X-GA-89P">
+                                <rect key="frame" x="185" y="33.5" width="131.5" height="4"/>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-zJ-x1F">
                                 <rect key="frame" x="336.5" y="26.5" width="37.5" height="18"/>
@@ -57,7 +57,7 @@
                 <outlet property="base_stat" destination="Itz-zJ-x1F" id="wi2-NV-9GV"/>
                 <outlet property="icon" destination="H7k-v3-7aY" id="EeA-Cf-5V4"/>
                 <outlet property="progressView" destination="z3X-GA-89P" id="Q7N-eI-gV6"/>
-                <outlet property="statName" destination="ARx-81-hFe" id="cBt-eL-0La"/>
+                <outlet property="statName" destination="LRC-ux-hiZ" id="MUN-lg-tdZ"/>
             </connections>
             <point key="canvasLocation" x="282.60869565217394" y="75.334821428571431"/>
         </tableViewCell>
